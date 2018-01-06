@@ -261,7 +261,63 @@ header .swiper-container .swiper-slide img{
 }
 
 
+/*男人页*/
+.man-header{
+    width: 10rem;
+}
+.man-header img{
+    width: 10rem;
+    height: 6rem;
+}
+.man-switch{
+    width: 10rem;
+    overflow: hidden;
+}
+.man-switch ul{
+    width: 20rem;
+}
+.man-switch ul::after {
+    display: table;
+    clear: both;
+    content: "";
+}
+.man-switch ul li{
+    width: 1.5rem;
+    height: 4rem;
+    float: left;
+    display: block;
+    background-size: cover;
+position: relative;
+}
+.man-switch ul li a{
+    color: #fff;
+   position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%);
+    font-size: 0.35rem;
+}
+.man-switch ul li:nth-child(1){
+    background: url("../images/man5.jpg")no-repeat;
+    background-size: 100% 100%;
+}
+.man-switch ul li:nth-child(2){
+     background: url("../images/man6.jpg")no-repeat;
+     background-size: 100% 100%;
+}
+.man-switch ul li:nth-child(3){
+      background: url("../images/man7.jpg")no-repeat;
+      background-size: 100% 100%;
 
+}
+.man-switch ul li:nth-child(4){
+       background: url("../images/man8.jpg")no-repeat;
+       background-size: 100% 100%;
+}
+.man-switch ul li:nth-child(5){
+    background: url("../images/man9.jpg")no-repeat;
+    background-size: 100% 100%;min-width: 4rem;
+}
 
 
 

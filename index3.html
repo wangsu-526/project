@@ -11,7 +11,68 @@
 </head>
 <body>
     <div class="container">
-        
+        <div class="man-header">
+        <link rel="stylesheet" href="css/swiper.min.css">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="images/man1.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="images/man2.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="images/man3.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="images/man4.jpg" alt=""></div>
+            </div>
+        </div>
+        <script src="js/swiper.min.js"></script>
+        <script>
+            var swiper = new Swiper('.man-header .swiper-container', {
+                spaceBetween: 30,
+                centeredSlides: true,
+                loop: true,
+                autoplay: {
+                    delay: 2500,
+                    disableOnInteraction: false
+                },
+                pagination: {
+                    el: '.man-header .swiper-pagination',
+                    clickable: true
+                }
+            });
+        </script>
+        </div>
+        <div class="man-switch">
+            <ul>
+                <li><a href="javascript:;">
+                    潮品
+                </a></li>
+                <li><a href="javascript:;">
+                    搭配
+                </a></li>
+                <li><a href="javascript:;">
+                    人气
+                </a></li>
+                <li><a href="javascript:;">
+                    最新
+                </a></li>
+                <li><a href="javascript:;">
+                    Buy TV
+                </a></li>
+            </ul>
+        </div>
     </div>
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script>
+        $(".man-switch ul li").hover(a,b);
+        function a() {
+            if (this != $(".man-switch ul li")[4]){
+                $(this).animate({width: '4rem'}, 500);
+                $(this).find(".man-switch ul li a").stop().animate({opacity: '1'}, 500);
+            }
+        }
+        function b(){
+
+            if(this != $(".man-switch ul li")[4]){
+                $(this).animate({width:"1.5rem"},400);
+            }
+        }
+    </script>
 </body>
 </html>
