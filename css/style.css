@@ -212,6 +212,7 @@ header .swiper-container .swiper-slide img{
 }
 .Sale-2{
     margin-bottom: 3.5rem;
+    font-size: 0.35rem;
 }
 .Sale-2 .Sale-21 a{
     color: #000;
@@ -221,7 +222,7 @@ header .swiper-container .swiper-slide img{
     line-height: 0.8rem;
     text-align: center;
     border-right: 0.013rem solid #d9d9d9;
-    font-size: 0.35rem;
+
 }
 .Sale-2 .Sale-21 a:last-child{
     border: none;
@@ -247,16 +248,16 @@ header .swiper-container .swiper-slide img{
     z-index: 199;
 }
 .footer-nav a{
-    float: left;
     width: 2rem;
     text-align: center;
     color: #000;
+    padding-top: 0.2rem;
 }
 .footer-nav a i{
     font-size: 0.5rem;
 }
 .footer-nav a h5{
-    padding-top: 0.15rem;
+    padding-top: 0.1rem;
     font-size: 0.3rem;
 }
 
@@ -318,7 +319,92 @@ position: relative;
     background: url("../images/man9.jpg")no-repeat;
     background-size: 100% 100%;min-width: 4rem;
 }
+.man-list{
+    width: 10rem;
+}
+.man-list-p{
+    font-size: 0.40rem;
+    text-align: center;
+    position: relative;
+    height: 1.5rem;
+    line-height: 1.5rem;
+}
+.man-list-p div{
+   position: absolute;
+   right: 0.5rem;
+    top:0;
+    font-size: 0.25rem;
+}
+.man-list-fist{
+    width: 10rem;
+    font-size: 0.35rem;
+}
+.man-list-fist::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.man_list-f1{
+    background: #fff;
+   height: 3.5rem;
+    width: 10rem;
+    padding-top: 0.2rem;
+}
+.man-list-fist .man_list-fl{
+    width: 5rem;
+}
+.man-list-fist .man_list-fl img{
+    width: 100%;
+    float: left;
+    padding-left: 0.2rem;
+}
+.man-list-fist .man_list-fr{
+    float: right;
+    width: 4.8rem;
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+    color: #4f4f4f;
 
+    font-size: 0.35rem;
+}
+.man-list-fist .man_list-fr p:last-child{
+    color: #bcbcbc;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    padding-top: 0.2rem;
+    font-size: 0.30rem;
+}
+.man-details{
+    background: #fff;
+    width: 10rem;
+    margin-top: 0.4rem;
+}
+.man-details-p{
+    text-align: center;
+    width: 10rem;
+    font-size: 0.35rem;
+    position: relative;
+    height: 1rem;
+    line-height: 1rem;
+}
+.man-details-p div{
+    position: absolute;
+    right: 0.35rem;
+    top: 0;
+
+}
+.man-details-1{
+    width: 4rem;
+    float: left;
+    font-size: 0.25rem;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    text-align: center;
+}
 
 
 
@@ -472,7 +558,7 @@ position: relative;
 .ification-i1{
     position: absolute;
     left: 0.5rem;
-    top:0.3rem;
+    top:0.4rem;
     font-size: 0.35rem;
     z-index: 999;
 }
@@ -539,7 +625,7 @@ margin-top: 0.2rem;
     position: absolute;
     font-size: 0.5rem;
     left: 1.5rem;
-    top: 0.2rem;
+    top: 0.45rem;
     color: #a4a4a4;
 }
 .brand-2{
