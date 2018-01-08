@@ -368,7 +368,7 @@ position: relative;
     font-size: 0.35rem;
 }
 .man-list-fist .man_list-fr p:last-child{
-    color: #bcbcbc;
+    color: #5a5a5a;
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 2;
@@ -393,25 +393,385 @@ position: relative;
     position: absolute;
     right: 0.35rem;
     top: 0;
-
 }
+
 .man-details-1{
-    width: 4rem;
+    width: 4.5rem;
     float: left;
     font-size: 0.25rem;
+    margin: 0.25rem;
+    border: 0.013rem solid #f3f3f3;
+    background: #f3f3f3;
+}
+.man-details-1::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.man-details-1 img{
+    width: 100%;
+}
+.man-details-1 .man_p{
+    margin: 0.2rem 0.3rem;
     display: -webkit-box;
     -webkit-box-orient: vertical;
-    -webkit-line-clamp: 2;
+    -webkit-line-clamp: 1;
     overflow: hidden;
+}
+.man-details-1 .man-wenzi-i{
+    width: 100%;
+    font-size: 0.35rem;
+    padding: 0 0.2rem;
+    height: 0.6rem;
+}
+.man-details-1 h5{
+    float: left;
+    width: 2rem;
+}
+.man-details-1 .man-i{
+    float: right;
+    width: 2rem;
+    text-align: right;
+}
+.man-details-1 .man-i i{
+    font-size: 0.35rem;
+}
+.man-shopping{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100vh;
+    height: 100vh;
+    background: rgba(0,0,0,0.3);
+    display: none;
+}
+.man-shang-0{
+    position: fixed;
+    left:0;
+    bottom: 0;
+    background: #fff;
+    width: 100%;
+    height: 65%;padding: 0.4rem;
+}
+.man-shang-1{
+    border-bottom: 0.013rem solid #e0e0e0;
+}
+.man-shang-1::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.man-shang-1l{
+    float: left;
+    width: 2.5rem;
+    height: 3.5rem;margin-top: -0.8rem;
+}
+.man-shang-1l img{
+    width: 100%;
+    height: 100%;
+    border-radius: 0.2rem;
+}
+.man-shang-1r{
+    width: 6rem;
+    float: right;
+    font-size: 0.35rem;
+    color: #de054a;
+}
+.man-shang-1r p span{
+    text-decoration: line-through;
+    color: #c4c4c4;
+}
+.man-shang-1r p:last-child{
+    color: #000000;
+}
+.man-shang-2{
+    font-size: 0.35rem;
+}
+.man-shang-21 h6:first-child{
+    border: none;
+}
+.man-shang-2 .man-shang-21::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.man-shang-21{
+    padding: 0.4rem 0;
+    border-bottom: 0.013rem solid #e9e9e9;
+}
+.man-shang-2 h6{
+    float: left;
+    width: 1.2rem;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    border: 0.013rem solid #eee;
+    border-radius: 0.1rem;
+    text-align: center;
+    margin-right: 0.1rem;
+}
+.man-shang-3{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 10rem;
+    height: 1rem;
+    text-align: center;
+    line-height: 1rem;
+    background: red;
+}
+.man-shang-3 a{
+    color: #fff;
+}
+.xxxx{
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    background: #e0e0e0;
+    width: 0.4rem;
+    height: 0.4rem;
+    text-align: center;
+    line-height: 0.4rem;
+    display: block;
+    border-radius: 0.2rem;
+}
+.man-xihuan{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100vh;
+    height: 100vh;
+    background: rgba(0,0,0,0.3);
+    display: block;
+}
+.man-xihuan0{
+    position: fixed;
+    left:0;
+    bottom: 0;
+    background: #fff;
+    width: 100%;
+    height: 25%;
+    padding: 0.4rem;
+}
+.man-xihuan1{
+    padding-left: 1rem;
+    width: 10rem;
+}
+.man-xihuan1::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.man-xihuan1 div{
+    background-image: url("../images/tubiao.png");
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 65px;
+    float: left;
+    padding-top: 1.7rem;
+    margin-right: 1rem;
     text-align: center;
 }
+.man-xihuan1 div:nth-child(1){
+    background-position: -105px -25px;
+}
+.man-xihuan1 div:nth-child(2){
+    background-position: -241px -25px;
+}
+.man-xihuan1 div:nth-child(3){
+    background-position:-310px -25px;
+}
+.man-quxiao{
+    width: 10rem;
+    display: block;
+    background: #eee;
+    height: 1rem;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    line-height: 1rem;
+}
+.register-header{
+    width: 10rem;
+    text-align: center;
+    position: relative;
+    height: 1rem;
+    line-height: 1rem;
+    font-size: 0.35rem;
+}
+.register-header .zhuce{
+    position: absolute;
+    left: 1rem;
+    top: 0;
+    font-size: 0.40rem;
+}
+.register-header .denglu{
+    position: absolute;
+    top: 0;
+    right: 1rem;
+    color: #000;
+}
+.register-phone{
+    width: 10rem;
+    background: #fff;
+    font-size: 0.35rem;
+}
+.register-phone .shouji{
+    width: 10rem;
+    text-align: center;
+    height: 1rem;
+}
+.register-phone .shouji h6{
+    width: 2rem;
+    border-bottom: red solid 0.035rem;
+    height:1rem;
+    line-height: 1rem;
+    margin: auto;
+    color: red;
+}
+.register-phone>div{
+    height: 1.5rem;
+    line-height: 1.5rem;
+    padding: 0 0.2rem;
+}
+.register-phone .xian{
+    width: 7.5rem;
+    float: left;
+}
+.register-phone>div:last-child{
+    border-bottom: 0.013rem solid #eeeeee;
+    border-top: 0.013rem solid #eeeeee;
+}
+.register-phone input{
+    border: none;
+    font-size: 0.35rem;
+    height: 1.2rem;
+}
+.register-phone input[type="text"]{
+    padding-left: 0.2rem;
+}
+.register-phone .phone{
+    width: 8rem;
+}
+.register-phone .possword{
+    width: 6rem;
+}
+.register-phone .huoqu{
+    width: 2rem;
+    background: #fff;
+}
+.register-Obtain{
+    width:10rem;
+}
+.register-Obtain-1,.register-Obtain-2{
+    padding: 0.4rem 0.8rem;
+}
+.register-Obtain-1 h6{
+    width: 0.5rem;
+    height: 0.5rem;
+    background: #00af00;
+    border-radius: 0.5rem;
+    color: #fff;
+    text-align: center;
+    line-height: 0.5rem;
+    float: left;
+    margin-right: 0.1rem;
+}
+.register-Obtain-1 a{
+    color: #08a7ff;
+}
+.register-Obtain-10{
+    width: 10rem;
+    padding: 0.2rem 0.4rem;
+}
+.register-Obtain-10 a{
+    text-align: center;
+    width: 100%;
+    height: 1rem;
+    background: olivedrab;
+    display: block;
+    font-size: 0.35rem;
+    line-height: 1rem;
+    color: #fff;
+    border-radius: 0.1rem;
+}
+.register-logo{
+    text-align: center;
+    font-size: 0.35rem;
+    font-weight: 700;
+    height: 7.2rem;
+    padding-top: 2rem;
+}
 
-
-
-
-
-
-
+.Login-1{
+    width:10rem;
+    height: 1.5rem;
+    line-height: 1.5rem;
+    border-bottom: solid #eee 0.013rem;
+    border-top: solid #eee 0.013rem;
+    display: flex;
+    align-content: center;
+}
+.Login-1>div{
+    width: 5rem;
+    text-align: center;
+}
+.Login-1 .active{
+    border-bottom: 0.08rem solid olivedrab;
+}
+.Login-2{
+    width: 10rem;
+    padding: 0.5rem 0.3rem;
+    background: #fff;
+}
+.Login-2 .Login-21>div{
+    font-size: 0.35rem;
+    border-bottom: 0.013rem solid #eee;
+    height: 1.5rem;
+    line-height: 1.5rem;
+}
+.Login-2 .Login-21>div input{
+    width: 8rem;
+    height: 1rem;
+    padding-left: 0.2rem;
+    border: none;
+}
+.Login-2::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.Login-2 .xian{
+    width: 7.5rem;
+    float: left;
+}
+.Login-2 .huoqu{
+    width: 1.8rem;
+    background: #fff;
+    border: none;
+    height: 1.5rem;
+}
+.Login-2 .phone{
+    width: 8rem;
+}
+.Login-2 .Login-21>div .possword{
+    width: 5rem;
+}
+.Login-3{
+    width: 10rem;
+    padding: 0.2rem 0.4rem;
+}
+.Login-3 a{
+    text-align: center;
+    width: 100%;
+    height: 1rem;
+    background: olivedrab;
+    display: block;
+    font-size: 0.35rem;
+    line-height: 1rem;
+    color: #fff;
+    border-radius: 0.1rem;
+}
 
 
 
