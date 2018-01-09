@@ -8,6 +8,11 @@
     <script src="js/iconfont.js"></script>
     <link rel="stylesheet" href="css/iconfont.css">
     <link rel="stylesheet" href="css/style.css">
+    <style>
+        .container{
+            position: relative;
+        }
+    </style>
 </head>
 <body>
     <div class="container">
@@ -40,17 +45,31 @@
             <div class="Login_4R">忘记密码</div>
         </div>
         <div class="Login-5">
-            快速注册
+            <a href="">快速注册</a>
         </div>
         <div class="Login-6">
-            <div class="Login_xian1"></div>
-            <div class="Login-6p">其他方式登录</div>
-            <div class="Login_xian2"></div>
+            <div class="Login-60">
+                <div class="Login_xian1"></div>
+                <div class="Login-6p">其他方式登录</div>
+                <div class="Login_xian2"></div>
+            </div>
         </div>
         <div class="Login-7">
-            <h6>QQ</h6>
-            <h6>支付宝</h6>
+            <div class="Login-70">
+                <h6>QQ</h6>
+                <h6>支付宝</h6>
+            </div>
         </div>
     </div>
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script>
+        $(".Login-1>div").click(
+                function(){
+                    var index=$(this).index();
+                    $(".Login-2 .Login-21").eq(index).show().siblings().hide();
+                    $(this).addClass("active").siblings().removeClass("active")
+                }
+        )
+    </script>
 </body>
 </html>

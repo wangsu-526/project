@@ -603,6 +603,10 @@ position: relative;
     position: absolute;
     left: 1rem;
     top: 0;
+
+    color: #000;
+}
+.register-header .zhuce i{
     font-size: 0.40rem;
 }
 .register-header .denglu{
@@ -711,6 +715,8 @@ position: relative;
     border-top: solid #eee 0.013rem;
     display: flex;
     align-content: center;
+    background: #fff;
+    font-size: 0.35rem;
 }
 .Login-1>div{
     width: 5rem;
@@ -735,6 +741,7 @@ position: relative;
     height: 1rem;
     padding-left: 0.2rem;
     border: none;
+    font-size: 0.35rem;
 }
 .Login-2::after{
     content: "";
@@ -750,6 +757,9 @@ position: relative;
     background: #fff;
     border: none;
     height: 1.5rem;
+    font-size: 0.35rem;
+    border-left: 0.013rem solid #e0e0e0;
+    border-right: 0.013rem solid #e0e0e0;
 }
 .Login-2 .phone{
     width: 8rem;
@@ -760,6 +770,7 @@ position: relative;
 .Login-3{
     width: 10rem;
     padding: 0.2rem 0.4rem;
+    background: #fff;
 }
 .Login-3 a{
     text-align: center;
@@ -772,8 +783,97 @@ position: relative;
     color: #fff;
     border-radius: 0.1rem;
 }
-
-
+.Login-4{
+    width: 10rem;
+    padding: 0.2rem 0.3rem;
+    background: #fff;
+    font-size: 0.35rem;
+}
+.Login-4::after{
+    clear: both;
+    content: "";
+    display: block;
+}
+.Login-4 .Login_4L{
+    float: left;
+    width: 4.5rem;
+}
+.Login-4 .Login_4R{
+    float: right;
+    width: 4.8rem;
+    text-align: right;
+}
+.Login-5{
+    width: 10rem;
+    text-align: center;
+    height: 9rem;
+    background: #fff;
+    font-size: 0.35rem;
+}
+.Login-5 a{
+    height: 1rem;
+    width: 2.5rem;
+    display: inline-block;
+    text-align: center;
+    line-height: 1rem;
+    border: 0.013rem solid green;
+    border-radius:0.2rem;
+    color: green;
+}
+.Login-6{
+    position: absolute;
+    bottom: 4rem;
+    left: 0;
+}
+.Login-60,.Login-70{
+    position: relative;
+}
+.Login_xian1{
+    position: absolute;
+    top: 0;
+    left: 1rem;
+    width:2.5rem;
+    height: 0.04rem;
+    background: #ccc;
+}
+.Login_xian2{
+    position: absolute;
+    top: 0;
+    left: 6.5rem;
+    width:2.5rem;
+    height: 0.04rem;
+    background: #ccc;
+}
+.Login-6p{
+    position: absolute;
+    top: -0.2rem;
+    left: 3.8rem;
+    width: 2.5rem;
+    text-align: center;
+    font-size: 0.35rem;
+}
+.Login-7{
+    position: absolute;
+    bottom: 1.5rem;
+    left: 50%;
+    transform: translateX(-40%);
+    text-align: center;
+}
+.Login-7 h6{
+    display: inline-block;
+    width: 1.1rem;
+    height: 1.1rem;
+    padding-top: 1.1rem;
+    margin-right: 0.8rem;
+}
+.Login-7 h6:first-child{
+    background: url("../images/qq.png")no-repeat;
+    background-size: 100% 100%;
+}
+.Login-7 h6:last-child{
+    background: url("../images/yifu.png")no-repeat;
+    background-size: 100% 100%;
+}
 
 
 
