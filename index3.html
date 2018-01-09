@@ -338,15 +338,18 @@
                     $(".man-xihuan").show()
                 }
         );
-        $(".man-shang-21 h6").click(
-                function(){
-                    if($(this).css('background','#fff')){
-                        $(this).css("background","red")
-                    }else if($(this).css("background","red")){
-                        $(this).css("background","#000")
-                    }
-                }
-        )
+        $(".man-shang-21 h6").click(function(){
+            $(this).toggleClass("red");
+        });
+//        $(".man-shang-21 h6").click(
+//                function(){
+//                    if($(this).css('background','#fff')){
+//                        $(this).css("background","red")
+//                    }else if($(this).css("background","red")){
+//                        $(this).css("background","#000")
+//                    }
+//                }
+//        )
 
     </script>
 </body>

@@ -492,6 +492,9 @@ position: relative;
 .man-shang-21 h6:first-child{
     border: none;
 }
+.man-shang-21 .red{
+    background: red;
+}
 .man-shang-2 .man-shang-21::after{
     content: "";
     display: block;
@@ -1003,7 +1006,19 @@ position: relative;
 }
 
 
+.my-header{
+    width: 10rem;
+    height: 5rem;
+    animation:mymove 5s infinite;
+}
+@keyframes mymove {
+    0%{
+        background: greenyellow;
+    }
+    20%{
 
+    }
+}
 
 
 
