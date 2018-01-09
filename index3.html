@@ -274,9 +274,9 @@
                 </div>
                 <div class="man-shang-21 man-shang-211">
                     <h6>数量</h6>
-                    <h6>-</h6>
-                    <h6>1</h6>
-                    <h6>+</h6>
+                    <button class="reduce">-</button>
+                    <span>1</span>
+                    <button class="add">+</button>
                 </div>
             </div>
             <div class="man-shang-3">
@@ -314,7 +314,6 @@
             }
         }
         function b(){
-
             if(this != $(".man-switch ul li")[4]){
                 $(this).animate({width:"1.5rem"},400);
             }
@@ -322,6 +321,11 @@
         $(".man-i i").click(
                 function(){
                     $(".man-shopping").show()
+                }
+        );
+        $(".xxxx").click(
+                function(){
+                    $(".man-shopping").hide()
                 }
         );
         $(".man-quxiao").click(
@@ -333,7 +337,17 @@
                 function(){
                     $(".man-xihuan").show()
                 }
+        );
+        $(".man-shang-21 h6").click(
+                function(){
+                    if($(this).css('background','#fff')){
+                        $(this).css("background","red")
+                    }else if($(this).css("background","red")){
+                        $(this).css("background","#000")
+                    }
+                }
         )
+
     </script>
 </body>
 </html>
