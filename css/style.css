@@ -1005,21 +1005,108 @@ position: relative;
     margin: 0;
 }
 
-
+/*关于我的开始*/
 .my-header{
     width: 10rem;
-    height: 5rem;
-    animation:mymove 5s infinite;
+    height: 6rem;
+    animation:mymove 20s 0s infinite;
+    overflow: hidden;
+    color: #fff;
+    position: relative;
+    font-size: 0.35rem;
+}
+.bigbeijing{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.my-i1{
+    position: absolute;
+    left: 0.1rem;
+    top: 0.1rem;
+}
+.my-i2{
+    position: absolute;
+    right: 0.1rem;
+    top: 0.1rem;
+}
+.my-i1 img,.my-i2 img{
+    width: 0.4rem;
+    height: 0.4rem;
 }
 @keyframes mymove {
     0%{
-        background: greenyellow;
+        background: rgb(40, 214, 255);
+    }
+    10%{
+        background: #ffaf2b;
     }
     20%{
-
+        background: #60cd27;
+    }
+    30%{
+        background: #26cdae;
+    }
+   40%{
+        background: #66baf8;
+    }
+    50%{
+        background: rgba(255, 217, 42, 0.92);
+    }
+    60%{
+        background: rgb(135, 255, 214);
+    }
+    70%{
+        background: rgb(139, 230, 255);
+    }
+    80%{
+        background: rgb(225, 108, 176);
+    }
+    90%{
+        background: rgb(221, 235, 20);
+    }
+    100%{
+        background: rgba(255, 210, 48, 0.91);
     }
 }
+.my-img{
+    width: 10rem;
+    text-align: center;
+    margin-top:1rem;
 
+}
+.my-img img {
+    width: 1.3rem;
+    height: 1.1rem;
+    margin-top: 0.3rem;
+
+}
+.my-img .my-img1{
+    background: rgba(0,0,0,0.4);
+    width: 2rem;
+    height: 2rem;
+    margin: auto;
+    border-radius: 50%;
+    margin-bottom: 0.1rem;
+}
+.my-li{
+    width: 10rem;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0.8rem;
+    background: rgba(0,0,0,0.4);
+    padding: 0.35rem 0;
+}
+.my-li div{
+    width:3.3rem;
+    float: left;
+    text-align: center;
+}
+.my-li img{
+    width: 0.6rem;
+    height: 0.5rem;
+}
+/*关于我的结束*/
 
 
 /*分类页*/
